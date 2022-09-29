@@ -1,0 +1,12 @@
+.characters-section .filter-list {
+  display: flex;
+  justify-content: center;
+  li {
+    p {
+      padding-left: 10px;
+    }
+    select {
+      margin: 0 10px 10px 10px;
+    }
+  }
+}

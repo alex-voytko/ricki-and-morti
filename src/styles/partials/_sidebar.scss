@@ -1,0 +1,31 @@
+.sidebar {
+  position: relative;
+  min-width: 200px;
+  max-height: inherit;
+  min-height: 100vh;
+  padding: 30px;
+  background-color: $contrast;
+  .nav-link-list {
+    position: fixed;
+    li:first-child {
+      margin-bottom: 150px;
+    }
+    li {
+      margin-bottom: 30px;
+    }
+    li:last-child {
+      margin-bottom: unset;
+    }
+    a {
+      color: white;
+    }
+    a:hover {
+      color: pink;
+    }
+    a.active {
+      color: pink;
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}

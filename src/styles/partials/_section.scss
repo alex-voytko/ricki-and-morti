@@ -1,0 +1,17 @@
+section .title-btn-container {
+  position: relative;
+  h2 {
+    @extend %title;
+  }
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  button.nav-btn-prev {
+    left: 0;
+  }
+  button.title-btn-next {
+    right: 0;
+  }
+}

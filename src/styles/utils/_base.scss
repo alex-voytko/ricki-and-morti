@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: $background;
+}
+h2,
+h3 {
+  color: $contrast;
+}
+a {
+  font-size: 20px;
+  font-weight: 300;
+  &:hover {
+    font-weight: 500;
+  }
+  transition: $animation;
+}
+button {
+  padding: 7px;
+  border: none;
+  color: $contrast;
+  background: rgb(255, 192, 203);
+  background: radial-gradient(circle, pink 35%, rgb(247, 176, 187) 100%);
+  @extend %shadow;
+  transition: $animation;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+div,
+img,
+button {
+  border-radius: 10px;
+}
+section {
+  width: 100%;
+}
+th,
+tr,
+td {
+  border: 1px solid $contrast;
+  padding: 10px;
+  border-radius: 10px;
+}
+thead tr {
+  background-color: $contrast;
+  color: pink;
+}
+td {
+  @extend %shadow;
+}
+table {
+  margin-right: auto;
+  margin-left: auto;
+}

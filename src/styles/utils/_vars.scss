@@ -1,0 +1,16 @@
+$background: #f7e3ff;
+$contrast: #15101d;
+$violetAccent: #310268;
+
+$animation: all 0.3s ease-in-out;
+
+%title {
+  font-size: 35px;
+  border-bottom: 2px solid $contrast;
+  margin-bottom: 30px;
+  text-align: center;
+}
+%shadow {
+  -webkit-box-shadow: 5px 5px 15px -1px #aaaaaa;
+  box-shadow: 5px 5px 15px -1px #aaaaaa;
+}
